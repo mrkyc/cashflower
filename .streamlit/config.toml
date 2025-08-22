@@ -1,0 +1,12 @@
+[browser]
+gatherUsageStats = false
+
+[server]
+runOnSave = true
+headless = true
+enableCORS = false
+enableXsrfProtection = false
+
+[client]
+toolbarMode = "minimal"
+showErrorDetails = "type"
