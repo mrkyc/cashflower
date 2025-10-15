@@ -1,7 +1,7 @@
 ## ⚠️ UNDER DEVELOPMENT ⚠️
 This project is currently under active development. Features and functionalities may change.
 
-**Access the online version here: [www.cashflower.online](www.cashflower.online)**
+**Access the online version here: [cashflower.online](https://cashflower.online)**
 
 This application uses **Streamlit** for the frontend. The backend is built with **FastAPI**, **SQLAlchemy**, and **SQLite**. SQLite was chosen for its quick setup, minimal resource usage, and ease of local deployment, as each user is provisioned with a separate database. To further enhance calculation performance and simplify the codebase, the project utilizes two custom-built SQLite extensions for calculating the key financial metrics: [XIRR](https://github.com/mrkyc/sqlite-xirr-extension) (Extended Internal Rate of Return) and [STDDEV](https://github.com/mrkyc/sqlite-stddev-extension) (Standard Deviation). This approach allows complex calculations to be performed directly within the database using SQL, eliminating the need to transfer datasets out of the database for processing. The extensions themselves implement more functionality than is currently required by the application, but they were included to provide a robust foundation for future enhancements.
 
@@ -158,7 +158,7 @@ The application should now be accessible in your browser.
 
 ### 🌐 Online Version
 
-The CashFlower application is also deployed and accessible online at [www.cashflower.online](www.cashflower.online).
+The CashFlower application is also deployed and accessible online at [cashflower.online](https://cashflower.online).
 
 ### ⚠️ Transaction File Structure ⚠️
 
